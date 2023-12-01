@@ -9,6 +9,7 @@ fun main() {
                 ans = ch.code - '0'.code
                 break
             }
+
         return ans
 
     }
@@ -34,6 +35,7 @@ fun main() {
 
 
         }
+        
         return ans
     }
 
