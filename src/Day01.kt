@@ -1,8 +1,9 @@
 fun main() {
 
-    fun findFirsrtdig(word: String): Int {
+    fun findFirstDig(word: String): Int {
         var ans = 0
         for(ch in word)
+
             if(ch.isDigit())
             {
                 ans = ch.code - '0'.code
@@ -24,8 +25,8 @@ fun main() {
 
             if(!digCheck)
                 continue
-            var frsDig =    findFirsrtdig(word)
-            var lastdig = findFirsrtdig(word.reversed())
+            var frsDig =    findFirstDig(word)
+            var lastdig = findFirstDig(word.reversed())
             ans += (frsDig * 10 + lastdig)
 
 
